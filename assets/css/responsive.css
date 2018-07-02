@@ -1,0 +1,363 @@
+@media screen and (max-width: 1180px) {
+	.o_offer.oo_smm .oo_inner_2 {
+		padding-right: 20px;
+	}
+	.why_we .why_row .wr_content {
+		padding: 30px;
+		text-align: center;
+	}
+}
+
+
+
+@media screen and (max-width: 1080px) {
+	.offer {
+		width: 50%;
+		height: 60vmin;
+	}
+	.offer:hover .offer_title::after {
+	    width: 60%;
+	}
+	.o_offer {
+		width: 100%;
+	}
+	.portfolio_slider {
+		margin-bottom: 40px;
+	}
+	.why_we .why_row .wr_img,
+	.why_we .why_row .wr_content {
+		float: none;
+		width: 100%;
+	}
+	.why_row {
+		height: auto;
+	}
+	.why_we .why_row .wr_img {
+		height: 35vw;
+	}
+	.why_row.wr_2 {
+		display: flex;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		flex-direction: column-reverse;
+		-webkit-box-orient: column-reverse;
+		-webkit-box-direction: column-reverse;
+		-webkit-flex-direction: column-reverse;
+		-ms-flex-direction: column-reverse;
+	}
+	.form_offer {
+		padding: 0;
+	}
+	.fo_inner {
+		width: 100%;
+	}
+	.popup {
+		padding: 40px 20px;
+	}
+}
+
+
+
+@media screen and (max-width: 900px) {
+	.op_inner {
+		width: 100%;
+		margin: 0 0 20px;
+		padding: 0 15px;
+	}
+	#thanks_popup {
+		width: 100%;
+		padding: 30px;
+		height: auto;
+	}
+	#thanks_popup .tp_title {
+		margin-bottom: 30px;
+	}
+}
+
+
+
+@media screen and (max-width: 850px) {
+	.bottom_line {
+		padding: 0;
+	}
+	.title {
+		text-align: center;
+		font-size: 30px;
+		padding: 40px 30px 70px;
+	}
+	.portfolio_slider .bx-pager.bx-default-pager {
+		top: -70px;
+		left: calc(50% - 60px);
+	}
+	.portfolio_slider .bx-controls-direction a.bx-prev {
+		top: -70px;
+		right: initial;
+		left: 30px;
+	}
+	.portfolio_slider .bx-controls-direction a.bx-next {
+		top: -70px;
+		right: initial;
+		right: 30px;
+	}
+}
+
+
+
+@media screen and (max-width: 760px) {
+	.fo_inner {
+		padding: 30px;
+	}
+}
+
+
+
+@media screen and (max-width: 660px) {
+	.top_line {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.slogan_company {
+		font-size: 45px;
+		padding: 0 15px;
+	}
+	.bottom_line .phone {
+		display: none;
+	}
+	#portfolio_slider .img {
+		width: 50%;
+	}
+	.fo_inner form .fo_bottom_line {
+		display: block;
+	}
+	.ur_info {
+		display: block;
+		width: 100%;
+		text-align: center;
+		margin-top: 20px;
+	}
+	.fo_inner form input[type="submit"],
+	.op_inner .fo_bottom_line input[type="submit"] {
+		display: block;
+		margin: 0 auto;
+	}
+	.fo_title {
+		font-size: 20px;
+		margin-bottom: 10px;
+		line-height: initial;
+	}
+	.fo_text {
+		font-size: 14px;
+		line-height: initial;
+	}
+	.fo_inner form {
+		margin-top: 30px;
+	}
+	.fo_inner form label input[type="text"] {
+		width: 100%;
+	}
+}
+
+
+
+@media screen and (max-width: 540px) {
+	.slogan_company {
+		font-size: 24px;
+	}
+	.under_slogan {
+		font-size: 13px;
+	}
+	.offer {
+		width: 100%;
+		min-height: 100vh;
+	}
+	.offer_title,
+	.ot_price,
+	.ot_text {
+		font-size: 20px;
+	}
+	.ot_about {
+		font-size: 15px;
+		margin-bottom: 10px;
+	}
+	.offer:hover .offer_title::after {
+	    width: 100%;
+	}
+	.o_offer.oo_seo .oo_inner_2,
+	.o_offer.oo_smm .oo_inner_2 {
+		padding: 30px 20px;
+		text-align: center;
+	}
+	.o_offer.oo_seo ul li {
+		display: inline-block;
+	}
+	.o_offer.oo_smm {
+		height: 330px;
+	}
+	.portfolio_slider {
+		margin-bottom: 20px;
+	}
+	footer > ul li {
+		margin: 0 0 20px;
+		display: block;
+		text-align: center;
+	}
+	footer > ul li:last-child {
+		margin-bottom: 0;
+	}
+	#thanks_popup .tp_title {
+		font-size: 35px;
+		margin-bottom: 20px;
+	}
+	#thanks_popup .tp_text {
+		font-size: 20px;
+	}
+
+
+	.offer,
+	.offer:hover {
+		height: initial !important;
+		min-height: initial !important;
+	}
+	.inner_offer {
+		position: static;
+		top: initial;
+		left: initial;
+		padding-bottom: 180px;
+	}
+	.offer:hover .inner_offer .arrow_disk {
+	    left: 65px !important;
+	    bottom: 75px !important;
+	}
+	.offer:hover .inner_offer {
+	    padding: 55px 30px;
+		padding-bottom: 180px;
+	    position: static;
+		top: initial;
+		left: initial;
+	    width: 100%;
+	    height: 100%;
+	    z-index: 100;
+	    -webkit-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	    overflow: hidden;
+	}
+	.offer .inner_offer .arrow_disk {
+	    position: absolute;
+	    left: 30px !important;
+	    bottom: 40px !important;
+	    -webkit-transition: 0.3s;
+	    -o-transition: 0.3s;
+	    transition: 0.3s;
+	}
+	.offer:hover .inner_offer .arrow_disk {
+		position: absolute;
+		left: 30px !important;
+		bottom: 40px !important;
+	}
+	.offer:nth-child(1):hover .inner_offer > img {
+		position: absolute;
+		right: -200px;
+		bottom: -15px;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+	}
+	.offer:nth-child(2):hover .inner_offer > img {
+		position: absolute;
+		right: -200px;
+		bottom: -50px;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+	}
+	.offer:nth-child(3):hover .inner_offer > img {
+		position: absolute;
+		right: -60px;
+		bottom: 10px;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+	}
+	.offer:nth-child(4):hover .inner_offer > img {
+		position: absolute;
+		right: 0;
+		bottom: -30px;
+		-webkit-transition: 0.3s;
+		-o-transition: 0.3s;
+		transition: 0.3s;
+	}
+	.why_we .why_row .wr_content {
+		padding: 30px 15px 15px;
+	}
+}
+
+
+
+@media screen and (max-width: 460px) {
+	.second_logo {
+		display: none;
+	}
+	.bottom_line > div,
+	.bottom_line .buy_btn {
+		width: 100vw;
+		margin: 0;
+		text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+	}
+	.portfolio_slider .bx-pager.bx-default-pager {
+		width: 100%;
+	}
+	.op_inner {
+		padding: 0;
+	}
+}
+
+
+
+@media screen and (max-width: 400px) {
+	.top_line {
+		display: block;
+		text-align: center;
+	}
+	.phone {
+		top: initial;
+	}
+	.logo {
+		display: block;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.o_offer.oo_seo ul li {
+		padding-left: 0;
+		background-position: center top;
+		padding-top: 20px;
+	}
+	.o_offer.oo_seo .oo_disk_arrow,
+	.o_offer.oo_smm .oo_disk_arrow {
+		bottom: 30px;
+		left: calc(50% - 17px);
+	}
+	#thanks_popup .tp_title {
+		font-size: 30px;
+		margin-bottom: 20px;
+	}
+	#thanks_popup .tp_text {
+		font-size: 15px;
+	}
+	.fo_inner form input[type="submit"] {
+		width: 100%;
+		padding: 0;
+	}
+	.fo_inner {
+		padding: 10px;
+	}
+	.ur_info {
+		font-size: 12px;
+	}
+	footer {
+		padding: 25px;
+	}
+}

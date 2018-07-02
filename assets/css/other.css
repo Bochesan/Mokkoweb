@@ -1,0 +1,136 @@
+.inner_offer {
+	padding: 55px 30px;
+}
+
+.offer {
+    display: block;
+    float: left;
+    width: 25%;
+    height: 450px;
+    height: 50vmin;
+    overflow: hidden;
+    position: relative;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.inner_offer {
+    padding: 55px 30px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    overflow: hidden;
+}
+
+.offer:hover .inner_offer {
+    padding: 55px 65px 55px 65px;
+    left: -35px;
+    width: calc(100% + 70px);
+    height: calc(100% + 35px);
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    z-index: 300;
+    background: rgb(255, 255, 255);
+}
+
+.offer .inner_offer .arrow_disk {
+    position: absolute;
+    left: 30px !important;
+    bottom: 40px !important;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.offer:hover .inner_offer .arrow_disk {
+    left: 65px !important;
+    bottom: 75px !important;
+}
+
+.o_offer.oo_seo .oo_inner_2 {
+    width: 100%;
+    height: 100%;
+    background: url('../img/plane-img.png') 135% 100% no-repeat;
+        background-size: auto auto;
+    background-size: 70%;
+    padding: 85px 20px 20px 70px;
+    position: relative;
+}
+
+.o_offer.oo_smm .oo_inner_2 {
+    width: 100%;
+    height: 100%;
+    background: url('../img/graph-img.png') 90% calc(100% + 30px) no-repeat;
+        background-size: auto auto;
+    background-size: 40%;
+    padding: 85px 400px 20px 80px;
+    position: relative;
+    -webkit-transition: 0.01s;
+    -o-transition: 0.01s;
+    transition: 0.01s;
+}
+
+.oo_disk_arrow {
+    position: absolute;
+    bottom: 50px;
+    left: 70px;
+    -webkit-opacity: 0.4;
+    -moz-opacity: 0.4;
+    -ms-opacity: 0.4;
+    -o-opacity: 0.4;
+    opacity: 0.4;
+    -webkit-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+
+.why_row.wr_1 .wr_content {
+    float: left;
+    width: 42%;
+    height: 100%;
+    background: rgb(247, 249, 253);
+    padding: 60px 50px 20px;
+}
+
+.why_row.wr_2 .wr_content {
+    float: left;
+    width: 45%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    padding: 60px 50px 20px;
+}
+
+.why_row.wr_3 .wr_content {
+    float: left;
+    width: 50%;
+    height: 100%;
+    background: rgb(247, 249, 253);
+    padding: 60px 50px 20px;
+}
+
+@media screen and (max-width: 1880px) {
+	.o_offer.oo_smm .oo_inner_2 {
+		padding: 85px 360px 20px 80px;
+	}
+}
+
+@media screen and (max-width: 1680px) {
+	.o_offer.oo_smm .oo_inner_2 {
+		padding: 85px 300px 20px 80px;
+	}
+}
+
+@media screen and (max-width: 1680px) {
+	.o_offer.oo_smm .oo_inner_2 {
+		padding: 85px 200px 20px 80px;
+	}
+}
